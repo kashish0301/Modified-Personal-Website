@@ -1,0 +1,36 @@
+            body {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            .top {
+                background-image: url("https://img.freepik.com/free-photo/empty-sea-beach-background_74190-313.jpg?size=626&ext=jpg");
+                background-size: cover;
+                position: relative;
+                width: 100%;
+                height: 100%;
+            }
+            
+            .inner {
+                font-size: x-large;
+                background: rgba(0, 22, 20, 0.6);
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                font-family: sans-serif;
+                color: white;
+                margin: auto;
+                overflow: hidden;
+                /* for aligning the contents of a box to center*/
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                height: 100%;
+                justify-content: center;
+                text-align: center;
+            }
+            
+            td {
+                padding: 30 5rem;
+            }
